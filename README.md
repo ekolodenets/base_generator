@@ -1,5 +1,5 @@
 # Base Generator
-Simple Base generator with Full Name + American City + Phone Number + Date 
+Full Name + American City + Phone Number + Date 
 
 File [simple_base.py](simple_base.py) will generate simple base like:
 <br><img src="docs/screenshot.jpg"/>
