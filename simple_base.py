@@ -41,6 +41,8 @@ def name():
 
 number = 200
 
+start_time = datetime.now()
+
 try:
     while number:
         with open(FILE_PATH, 'a+') as file_txt:
@@ -51,3 +53,5 @@ try:
         number -= 1
 except KeyboardInterrupt:
     print('Hello, You have just stopped the process.')
+
+print(datetime.now() - start_time, 'отсчет закончен')
