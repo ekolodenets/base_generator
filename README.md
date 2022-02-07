@@ -9,4 +9,4 @@ With editing value of **number** you controlling new pack of data that will be *
 
 And of course don't forget to:
 
-**pip install names**
+`pip install names`
