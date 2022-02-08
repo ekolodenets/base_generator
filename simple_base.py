@@ -48,7 +48,7 @@ try:
         with open(FILE_PATH, 'a+') as file_txt:
             result_str = name().ljust(22) + city().ljust(22) + phone().ljust(15) + dtime()
             file_txt.write(result_str + '\n')
-        print(number)   # to view the progress. Just to control the process
+        # print(number)   # to view the progress. Just to control the process
         number -= 1
 except KeyboardInterrupt:
     print('Hello, You have just stopped the process.')

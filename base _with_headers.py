@@ -56,13 +56,9 @@ try:
                     with open(FILE_PATH, 'a+') as file_txt:  # if not empty adding further information
                         result_str = name().ljust(22) + city().ljust(22) + phone().ljust(15) + dtime()
                         file_txt.write(result_str + '\n')
-                    print(number)   # to view the progress
+                    # print(number)   # to view the progress
                     number -= 1
                 break  # break main while
-
-        else:  # create if don't exist
-            file_txt = open(FILE_PATH, 'w')
-            file_txt.close()
 
 except KeyboardInterrupt:
     print('Hello, You have just stopped the process.')
