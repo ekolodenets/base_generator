@@ -50,7 +50,6 @@ try:
                 one_line = [name(), city(), phone()]
                 result_str = one_line[0].ljust(22) + one_line[1].ljust(22) + one_line[2].ljust(15) + dtime()
                 file_txt.write(result_str + '\n')
-                file_txt.close()
                 number -= 1
                 sleep(0.01)
 except EOFError:

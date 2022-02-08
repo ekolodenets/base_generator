@@ -51,13 +51,11 @@ try:
                     lines = '_' * 78 + '\n'
                     file_txt.write(intro)
                     file_txt.write(lines)
-                    file_txt.close()
             else:
                 while number:
                     with open(FILE_PATH, 'a+') as file_txt:  # if not empty adding further information
                         result_str = name().ljust(22) + city().ljust(22) + phone().ljust(15) + dtime()
                         file_txt.write(result_str + '\n')
-                        file_txt.close()
                     print(number)   # to view the progress
                     number -= 1
                 break  # break main while
